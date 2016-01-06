@@ -1,0 +1,10 @@
+---
+layout: default
+title: GRJ
+---
+{{ page.title }}
+工程实训, 训个貂毛.
+
+{% for post in site.posts %}
+{{ post.date | date_to_string }} {{ post.title }}
+{% endfor %}
